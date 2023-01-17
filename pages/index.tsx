@@ -11,6 +11,23 @@ export default function Home() {
       <h1 className="text-6xl font-bold">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
+
+      <Button variant="light" color="violet" size="xl">
+        Setting
+      </Button>
+
+      <Button
+        variant="light"
+        color="indigo"
+        radius="md"
+        size="xl"
+        disabled
+        compact
+        uppercase
+      >
+        Setting
+      </Button>
+
       <Button variant="outline" color="teal" size="md">
         Settings
       </Button>
